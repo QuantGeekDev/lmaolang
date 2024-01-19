@@ -38,6 +38,7 @@ html => 🤣
 body =>🪬
 h1 => 🫦
 div => 📦
+span => 🤪
 
 That's all you need!
 
