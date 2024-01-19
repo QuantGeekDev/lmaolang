@@ -1,16 +1,12 @@
 import { tokenMap } from "./tokenMap.js";
 import { type Token } from "./types.js";
+import { isEmoji, isShallNotBeNamed } from "./checkers.js";
 
 const red = "\x1b[31m%s\x1b[0m";
 
-const isEmoji = (char: string) => {
-  const emojiRegex =
-    /(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
-  return emojiRegex.test(char);
-};
-
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
+  let tempString = "";
 
   for (const char of lmaoCode) {
     let token: Token;
@@ -24,6 +20,15 @@ const lexer = (lmaoCode: string): Token[] => {
         tokens.push(token);
       }
     } else if (!isEmoji(char)) {
+      tempString += char;
+      if (isShallNotBeNamed(tempString)) {
+        console.log(
+          red,
+          "😨😱💀YOU😨😱💀WERE😨😱💀TOLD😨😱💀NOT😨😱💀TO😨😱💀NAME😨😱💀HIM!!!!"
+        );
+        process.exit(0);
+      }
+
       token = { type: tokenMap.TEXT, value: char };
       tokens.push(token);
     }
@@ -72,8 +77,8 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣Hello World💀";
+const lmaoLangCode = "🤣Hello World💀 voldemort";
 
-const htmlOutput = compile(lmaoLangCode);
+const compiledLmao = compile(lmaoLangCode);
 
-console.log("🤣Here👏is👏your👏Lmao👏code💃:\n\n", htmlOutput, "\n\n");
+console.log("🤣Here👏is👏your👏Lmao👏code💃:\n\n", compiledLmao, "\n\n");
