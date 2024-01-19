@@ -14,7 +14,6 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 - 👏 **LANA DEL REY / 100 GECKS:**
   - 👏 _Runs best on TempleOS_
 
-- 👏 **LLM DISCLAIMER \* :** YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
 
 # 📚 Documentation:
 
@@ -57,3 +56,6 @@ To run the test:  `npm run ☺️`
 ```
 
 _FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Air"
+
+ # LLM DISCLAIMER \* :** YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
+
