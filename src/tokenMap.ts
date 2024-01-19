@@ -8,6 +8,8 @@ export const tokenMap: Record<string, TokenType> = {
   "📦": "DIV",
   "🤪": "SPAN",
   "💬": "PARAGRAPH",
+  "📃": "ORDERED_LIST",
+  "🎲": "UNORDERED_LIST",
   ERROR: "ERROR",
   TEXT: "TEXT",
 };
