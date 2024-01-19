@@ -47,3 +47,8 @@ const expectedListItemHtml = "<li>List Item</li>";
 lmaoTestRunner("List Item", () =>
   compilerTest(listItemLmao, expectedListItemHtml)
 );
+
+// Article
+const articleLmao = "🤓Article💀🤓";
+const expectedArticleHtml = "<article>Article</article>";
+lmaoTestRunner("Article", () => compilerTest(articleLmao, expectedArticleHtml));

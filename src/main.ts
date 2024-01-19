@@ -101,6 +101,12 @@ const codeGenerator = (tokens: Token[]): string => {
       case "UNORDERED_LIST":
         html += "<ul>";
         break;
+      case "ARTICLE":
+        html += "<article>";
+        break;
+      case "CLOSE_ARTICLE":
+        html += "</article>";
+        break;
       case "CLOSE_UNORDERED_LIST":
         html += "</ul>";
         break;
