@@ -42,8 +42,8 @@ To run the test:  `npm run ☺️`
 🤣
    🪬
       🗣️ Hello World 🗣️💀
-   💀🪬
-💀🤣
+   🪬💀
+💀
 ```
 👏 This will compile 🛠️ into:
 ```html
