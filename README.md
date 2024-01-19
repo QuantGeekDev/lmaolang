@@ -24,12 +24,11 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 
 # 📚 Documentation:
 
-👏 Use emojis to write html. Text is treated as text - but don't mention "He-Who-Must-Not-Be-Name...
+👏 Use emojis to write html. Text is treated as text - but don't mention "He-Who-Must-Not-Be-Named..."
 
 And sigh... for now, we support plaintext html interoperability: you can use 🤮traditional🤢html for unsupported tags
 
 💀 Is the universal closing tag. Close any tag by adding the 💀 modifier to it.
-🤣 doesn't require a modifier tag, close it with a single 💀 at the end
 Example:
 
 ```
@@ -38,12 +37,15 @@ Example:
 
 ## 📘 API Reference
 
-html => 🤣
-body =>🪬
-h1 => 🫦
-div => 📦
-span => 🤪
-p => 💬
+
+```html
+<html> --> 🤣
+<body> --> 🪬
+<h1> ----> 🫦
+<div> ---> 📦
+<span> --> 🤪
+<p> -----> 💬
+```
 
 That's all you need!
 
