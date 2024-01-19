@@ -20,7 +20,7 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 
 # 📚 Documentation:
 
-👏 Use emojis to write html. Text is treated as text - but don't mention "He-Who-Must-Not-Be-Name...
+👏 Use emojis to write html. Text is treated as text - but don't mention "He-Who-Must-Not-Be-Named..."
 
 And sigh... for now, we support plaintext html interoperability: you can use 🤮traditional🤢html for unsupported tags
 
@@ -33,11 +33,13 @@ Example:
 
 ## 📘 API Reference
 
-html => 🤣
-body =>🪬
-h1 => 🫦
-div => 📦
-span => 🤪
+```html
+<html> --> 🤣
+<body> --> 🪬
+<h1> ----> 🫦
+<div> ---> 📦
+<span> --> 🤪
+```
 
 That's all you need!
 
