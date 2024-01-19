@@ -68,7 +68,7 @@ Coming soon: lmaoTestRunner will automatically break your tests, eliminating fal
 ```lmaolang
 🤣
    🪬
-      🗣️ Hello World 🗣️💀
+      🫦 Hello World 🫦💀
    🪬💀
 💀
 ```
