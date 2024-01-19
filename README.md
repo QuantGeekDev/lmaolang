@@ -25,3 +25,7 @@ Use emojis to write html. Text is treated as text - but don't mention he who sho
 ## API Reference
 
 html => 🤣
+
+## UNIT TEST:
+
+`npm run ☺️`

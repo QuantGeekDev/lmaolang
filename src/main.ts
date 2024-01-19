@@ -57,18 +57,22 @@ const codeGenerator = (tokens: Token[]): string => {
         console.log(red, `🤣❌ - Invalid emoji detected😱😨: ${token.value}`);
         break;
       default:
+        console.log(
+          red,
+          `🤣❌ - s😨O😨m😨E😨t😨I😨n😨G unexpected happened 💅 : ${token.value}`
+        );
     }
   });
 
   return html;
 };
 
-const compile = (input: string): string => {
+export const compile = (input: string): string => {
   const tokens = lexer(input);
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣🐈Hi💀";
+const lmaoLangCode = "🤣Hello World💀";
 
 const htmlOutput = compile(lmaoLangCode);
 
