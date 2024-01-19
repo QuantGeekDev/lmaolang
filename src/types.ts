@@ -5,9 +5,13 @@ export type TokenType =
   | "H1"
   | "TEXT"
   | "VOLDEMORT"
-  | "ERROR";
+  | "ERROR"
+  | "CLOSE_HTML"
+  | "CLOSE_H1"
+  | "CLOSE_BODY"
+  | "CLOSE_💀";
 
-export type Token = {
+export interface Token {
   type: TokenType;
   value: string;
-};
+}

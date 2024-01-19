@@ -4,21 +4,29 @@
 
 👏 Designed for 🍎Apple users 😉 The ones with the touchpad for emojis🐈. You're gonna 🥰🥰🥰🥰 this, trust me🙄.
 
-LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 to represent HTML 📜 elements. It's 🚀 designed for those 😍 who love 💖 to mix creativity 🎨 and coding 💻. 
+LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 to represent HTML 📜 elements. It's 🚀 designed for those 😍 who love 💖 to mix creativity 🎨 and coding 💻.
 
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
 - 👏 **MACBOOK WITH TOUCHPAD KEYBOARD:**
+
   - 👏 This one: !["The best keyboard ever"](https://www.switchingtomac.com/wp-content/uploads/2022/03/image-1024x572.jpeg)
 
 - If you use windows/linux, you can try this keyboard:
-  - !["The second best keyboard ever"](https://s.yimg.com/ny/api/res/1.2/LbXx_aHwWZhaAkR2lA4ClQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MTc-/https://o.aolcdn.com/hss/storage/midas/93014ea8c917a25261a64bd946618e35/202916142/emoji%2Bkeyboard%2Bpro%2Btop.jpg)   
+  - !["The second best keyboard ever"](https://s.yimg.com/ny/api/res/1.2/LbXx_aHwWZhaAkR2lA4ClQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MTc-/https://o.aolcdn.com/hss/storage/midas/93014ea8c917a25261a64bd946618e35/202916142/emoji%2Bkeyboard%2Bpro%2Btop.jpg)
 - 👏🎵 **LANA DEL REY / 100 GECKS:** 🎶
-
 
 # 📚 Documentation:
 
 👏 Use emojis to write html. Text is treated as text - but don't mention he who shouldn't be mentioned...
+
+💀 Is the universal closing tag. Close any tag by adding the 💀 modifier to it.
+🤣 doesn't require a modifier tag, close it with a single 💀 at the end
+Example:
+
+```
+🤣🗣️I love LmaoLang!🗣️💀 💀
+```
 
 ## 📘 API Reference
 
@@ -30,7 +38,7 @@ That's all you need!
 
 ## 🧪 UNIT TEST:
 
-To run the test:  `npm run ☺️`
+To run the test: `npm run ☺️`
 
 # 🌟 Basic Usage
 
@@ -47,16 +55,17 @@ To run the test:  `npm run ☺️`
    🪬💀
 💀
 ```
+
 👏 This will compile 🛠️ into:
+
 ```html
 <html>
-   <body>
-      <h1> Hello World  </h1>
-   </body>
+  <body>
+    <h1>Hello World</h1>
+  </body>
 </html>
 ```
 
-_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Air"
+\_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Air"
 
- # LLM DISCLAIMER  : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
-
+# LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET

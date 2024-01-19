@@ -8,7 +8,10 @@
     {
       "extends": ["xo-typescript", "prettier"],
       "files": ["*.ts", "*.tsx"],
-      "rules": { "@typescript-eslint/naming-convention": "off" }
+      "rules": {
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/consistent-type-definitions": "interface"
+      }
     }
   ],
   "parserOptions": {
