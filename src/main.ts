@@ -1,16 +1,29 @@
 import { tokenMap } from "./tokenMap.js";
 import { type Token } from "./types.js";
-import { isEmoji, isShallNotBeNamed } from "./checkers.js";
+import { isClosingTag, isEmoji, isShallNotBeNamed } from "./checkers.js";
 
 const red = "\x1b[31m%s\x1b[0m";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
   let tempString = "";
+  let lastTokenWasModifier = false;
 
   for (const char of lmaoCode) {
     let token: Token;
     if (isEmoji(char)) {
+      if (isClosingTag(char)) {
+        lastTokenWasModifier = true;
+        continue;
+      }
+
+      if (lastTokenWasModifier) {
+        token = { type: `CLOSE_${tokenMap[char]}`, value: char };
+        lastTokenWasModifier = false;
+        tokens.push(token);
+        continue;
+      }
+
       if (tokenMap[char]) {
         token = { type: tokenMap[char], value: char };
         tokens.push(token);

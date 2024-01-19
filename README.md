@@ -22,6 +22,14 @@ _Runs best on TempleOS_
 
 Use emojis to write html. Text is treated as text - but don't mention he who shouldn't be mentioned...
 
+💀 Is the universal closing tag. Close any tag by adding the 💀 modifier to it.
+🤣 doesn't require a modifier tag, close it with a single 💀 at the end
+Example:
+
+```
+🤣🗣️I love LmaoLang!🗣️💀 💀
+```
+
 ## API Reference
 
 html => 🤣
