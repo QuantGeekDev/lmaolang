@@ -86,3 +86,5 @@ Coming soon: lmaoTestRunner will automatically break your tests, eliminating fal
 _FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
 
 ## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
+
+Copyright (C) 2024 Alex Andru
