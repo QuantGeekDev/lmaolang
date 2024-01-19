@@ -8,6 +8,7 @@ import {
 } from "./checkers.js";
 
 const red = "\x1b[31m%s\x1b[0m";
+const blue = "\x1b[32m%s\x1b[0m";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
@@ -18,7 +19,6 @@ const lexer = (lmaoCode: string): Token[] => {
     let token: Token;
     if (isEmoji(char)) {
       if (isClosingTag(char)) {
-        debugger;
         lastTokenWasModifier = true;
         continue;
       }
@@ -47,7 +47,9 @@ const lexer = (lmaoCode: string): Token[] => {
         );
         process.exit(0);
       }
-
+      if (isEmoji(char)) {
+        console.log(char);
+      }
       token = { type: tokenMap.TEXT, value: char };
       tokens.push(token);
     }
@@ -62,23 +64,29 @@ const codeGenerator = (tokens: Token[]): string => {
   tokens.forEach((token) => {
     const { type } = token;
     switch (type) {
-      case "CLOSE_HTML":
-        html += "</html>";
-        break;
       case "HTML":
         html += "<html>";
         break;
-      case "CLOSE_BODY":
-        html += "</body>";
+      case "CLOSE_HTML":
+        html += "</html>";
         break;
       case "BODY":
         html += "<body>";
+        break;
+      case "CLOSE_BODY":
+        html += "</body>";
         break;
       case "H1":
         html += "<h1>";
         break;
       case "CLOSE_H1":
         html += "</h1>";
+        break;
+      case "DIV":
+        html += "<div>";
+        break;
+      case "CLOSE_DIV":
+        html += "</div>";
         break;
       case "TEXT":
         html += token.value;
@@ -102,12 +110,12 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣 🪬🫦Marta💀🫦💀🪬💀🤣";
+const lmaoLangCode = "🤣 🪬 📦 🫦 👏Ivan 💀🫦 💀📦 💀🪬 💀🤣";
 
-const compiledLmao = compile(lmaoLangCode);
+const compiledHtml = compile(lmaoLangCode);
 
 console.log(
-  "Huge slay 👁️ 🫦 👁️\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
-  compiledLmao,
-  "\n\n"
+  blue,
+  "\nHuge slay 👁️ 🫦 👁️\n\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
+  compiledHtml
 );
