@@ -25,7 +25,6 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 And sigh... for now, we support plaintext html interoperability: you can use 🤮traditional🤢html for unsupported tags
 
 💀 Is the universal closing tag. Close any tag by adding the 💀 modifier to it.
-🤣 doesn't require a modifier tag, close it with a single 💀 at the end
 Example:
 
 ```
