@@ -9,7 +9,7 @@
     "build:dev": "tsc -w",
     "start": "node .",
     "start:dev": "node --watch . ",
-    "☺️": "node dist/__☺️__/helloWorld.☺️.js"
+    "☺️": "node dist/__☺️__/tests.☺️.js"
   },
   "keywords": [],
   "author": "",

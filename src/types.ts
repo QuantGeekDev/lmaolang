@@ -12,7 +12,9 @@ export type TokenType =
   | "CLOSE_DIV"
   | "CLOSE_BODY"
   | "SPAN"
-  | "CLOSE_SPAN";
+  | "CLOSE_SPAN"
+  | "PARAGRAPH"
+  | "CLOSE_PARAGRAPH";
 
 export interface Token {
   type: TokenType;

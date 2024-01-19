@@ -6,9 +6,7 @@ import {
   isLegalEmoji,
   isShallNotBeNamed,
 } from "./checkers.js";
-
-const red = "\x1b[31m%s\x1b[0m";
-const blue = "\x1b[32m%s\x1b[0m";
+import { red, blue } from "./utils/consoleColors.js";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
@@ -94,6 +92,12 @@ const codeGenerator = (tokens: Token[]): string => {
       case "CLOSE_SPAN":
         html += "</span>";
         break;
+      case "PARAGRAPH":
+        html += "<p>";
+        break;
+      case "CLOSE_PARAGRAPH":
+        html += "</p>";
+        break;
       case "TEXT":
         html += token.value;
         break;
@@ -103,7 +107,7 @@ const codeGenerator = (tokens: Token[]): string => {
       default:
         console.log(
           red,
-          `🤣❌ - s😨O😨m😨E😨t😨I😨n😨G unexpected happened 💅 : ${token.value}`
+          `🤣❌ - s😨O😨m😨E😨t😨H😨i😨N😨g unexpected happened 💅 : ${token.value}`
         );
     }
   });
@@ -116,7 +120,7 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣🪬🤪I'm a span!💀🤪💀🪬💀🤣";
+const lmaoLangCode = "🤣🪬🤪Hello Sean!💀🤪💀🪬💀🤣";
 
 const compiledHtml = compile(lmaoLangCode);
 
