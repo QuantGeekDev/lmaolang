@@ -8,7 +8,7 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 
 Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random messaging service here' as an IDE? Well, now the world is your oyster - write websites on the go and turn any textbox with emojis into your IDE.
 
-Is this a joke? Is this a working emoji to html compiler with it's own test runner? The truth lies somwhere in the middle...
+Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somwhere in the middle...
 
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
