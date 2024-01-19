@@ -15,3 +15,11 @@ This one: !["The best keyboard ever"](https://www.switchingtomac.com/wp-content/
 _Runs best on TempleOS_
 
 - LLM DISCLAIMER \* : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
+
+# Documentation:
+
+Use emojis to write html. Text is treated as text - but don't mention he who shouldn't be mentioned...
+
+## API Reference
+
+<html> => 🤣
