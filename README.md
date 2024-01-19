@@ -53,7 +53,7 @@ That's all you need!
 
 To run the test: `npm run ☺️`
 
-At 🤣-Lang, we believe that tests should be quick to write. That's why we opted for a simple yet powerful testing approach. We've minimized boilerplate code to the purely necesary: write the input, write the expected output, write a title for the component you are testing. Done. All tests live in a single test file "tests.☺️.ts", separated by comments. Why? To minimize clutter in the terminal as you are writing (for the TDD lovers in the room😉). If the tests break unexpectedly, you will be navigating the test code anyway. Could we have used for playwright or jest? We'll see as the complexity of the project grows. For now, lmaoTestRunner is the way to go.
+At 🤣-Lang, we believe that tests should be quick to write. That's why we opted for a simple yet powerful testing approach. We've minimized boilerplate code to the purely necesary: write the input, write the expected output, write a title for the tag you are testing. Done. All tests live in a single test file "tests.☺️.ts", separated by comments. Why? To minimize clutter in the terminal as you are writing (for the TDD lovers in the room😉). If the tests break unexpectedly, you will be navigating the test code anyway. Could we have used for playwright or jest? We'll see as the complexity of the project grows. For now, lmaoTestRunner is the way to go.
 
 Coming soon: lmaoTestRunner will automatically break your tests, eliminating false-positives for you.
 
