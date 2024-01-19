@@ -3,12 +3,12 @@ import { compile } from "../main.js";
 export const lmaoTestRunner = (title: string, callback: () => boolean) => {
   try {
     if (!callback()) {
-      console.error(`🤣❌🧪 - ${title}: Test Fails`);
+      console.error(`🤣❌🧪 - ${title}`);
       return;
     }
-    console.log(`🤣✅🧪 - ${title}: Test Passes`);
+    console.log(`🤣✅🧪 - ${title}`);
   } catch (error) {
-    console.error(`🤣❌🧪 - ${title}: Test Fails. ${error}`);
+    console.error(`🤣❌🧪 - ${title} ${error}`);
   }
 };
 
