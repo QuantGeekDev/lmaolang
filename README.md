@@ -6,6 +6,10 @@
 
 LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 to represent HTML 📜 elements. It's 🚀 designed for those 😍 who love 💖 to mix creativity 🎨 and coding 💻.
 
+Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random messaging service here' as an IDE? Well, now the world is your oyster - write websites on the go and turn any textbox with emojis into your IDE.
+
+Is this a joke? Is this a working emoji to html compiler with it's own test runner? The truth lies somwhere in the middle...
+
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
 - 👏 **MACBOOK WITH TOUCHPAD KEYBOARD:**
@@ -39,12 +43,17 @@ body =>🪬
 h1 => 🫦
 div => 📦
 span => 🤪
+p => 💬
 
 That's all you need!
 
-## 🧪 UNIT TEST:
+## 🧪 Testing Philsophy:
 
 To run the test: `npm run ☺️`
+
+At 🤣-Lang, we believe that tests should be quick to write. That's why we opted for a simple yet powerful testing approach. We've minimized boilerplate code to the purely necesary: write the input, write the expected output, write a title for the component you are testing. Done. All tests live in a single test file "tests.☺️.ts", separated by comments. Why? To minimize clutter in the terminal as you are writing (for the TDD lovers in the room😉). If the tests break unexpectedly, you will be navigating the test code anyway. Could we have used for playwright or jest? We'll see as the complexity of the project grows. For now, lmaoTestRunner is the way to go.
+
+Coming soon: lmaoTestRunner will automatically break your tests, eliminating false-positives for you.
 
 # 🌟 Basic Usage
 
@@ -72,6 +81,6 @@ To run the test: `npm run ☺️`
 </html>
 ```
 
-\_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Air"
+_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
 
-# LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
+## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
