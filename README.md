@@ -11,6 +11,8 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 - 👏 **MACBOOK WITH TOUCHPAD KEYBOARD:**
   - 👏 This one: !["The best keyboard ever"](https://www.switchingtomac.com/wp-content/uploads/2022/03/image-1024x572.jpeg)
 
+- If you use windows/linux, you can try this keyboard:
+  - !["The second best keyboard ever"](https://s.yimg.com/ny/api/res/1.2/LbXx_aHwWZhaAkR2lA4ClQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MTc-/https://o.aolcdn.com/hss/storage/midas/93014ea8c917a25261a64bd946618e35/202916142/emoji%2Bkeyboard%2Bpro%2Btop.jpg)   
 - 👏🎵 **LANA DEL REY / 100 GECKS:** 🎶
 
 
