@@ -1,17 +1,21 @@
 import { compile } from "../main.js";
 
-const testLmaoCode = "🤣Hello World💀";
+const compilerTest = (codeToCompile: string, expectedCompiledCode: string) => {
+  const actualCompiledCode = compile(codeToCompile);
 
-const actualCompiledCode = compile(testLmaoCode);
+  if (expectedCompiledCode === actualCompiledCode) {
+    console.log("🤣✅🧪 - Test Passes");
+  } else {
+    console.log(
+      "🤣❌🧪" +
+        ` - Test Fails. Expected compiled code: ${expectedCompiledCode}\n 
+      Actual compiled code: ${actualCompiledCode}`
+    );
+  }
+};
 
-const expectedCompiledCode = `<html>Hello World</html>`;
+const lmaoCode = "🤣🪬🫦Hello World💀🫦💀🪬💀🤣";
 
-if (expectedCompiledCode === actualCompiledCode) {
-  console.log("🤣✅🧪 - Test Passes");
-} else {
-  console.log(
-    "🤣❌🧪" +
-      ` - Test Fails. Expected compiled code: ${expectedCompiledCode}\n 
-    Actual compiled code: ${actualCompiledCode}`
-  );
-}
+const expectedHtml = `<html><body><h1>Hello World</h1></body></html>`;
+
+compilerTest(lmaoCode, expectedHtml);
