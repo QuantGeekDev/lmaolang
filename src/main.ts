@@ -8,6 +8,7 @@ import {
 } from "./checkers.js";
 
 const red = "\x1b[31m%s\x1b[0m";
+const blue = "\x1b[32m%s\x1b[0m";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
@@ -102,11 +103,12 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣 🪬🫦Marta💀🫦💀🪬💀🤣";
+const lmaoLangCode = "🤣🪬🫦Ivan💀🫦💀🪬💀🤣";
 
 const compiledLmao = compile(lmaoLangCode);
 
 console.log(
+  blue,
   "Huge slay 👁️ 🫦 👁️\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
   compiledLmao,
   "\n\n"
