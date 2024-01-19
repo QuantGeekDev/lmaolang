@@ -6,6 +6,7 @@ export const tokenMap: Record<string, TokenType> = {
   "🪬": "BODY",
   "🫦": "H1",
   "📦": "DIV",
+  "🤪": "SPAN",
   ERROR: "ERROR",
   TEXT: "TEXT",
 };

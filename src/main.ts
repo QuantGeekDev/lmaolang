@@ -88,6 +88,12 @@ const codeGenerator = (tokens: Token[]): string => {
       case "CLOSE_DIV":
         html += "</div>";
         break;
+      case "SPAN":
+        html += "<span>";
+        break;
+      case "CLOSE_SPAN":
+        html += "</span>";
+        break;
       case "TEXT":
         html += token.value;
         break;
@@ -110,7 +116,7 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣 🪬 📦 🫦 👏Ivan 💀🫦 💀📦 💀🪬 💀🤣";
+const lmaoLangCode = "🤣🪬🤪I'm a span!💀🤪💀🪬💀🤣";
 
 const compiledHtml = compile(lmaoLangCode);
 
