@@ -18,7 +18,7 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 
 # 📚 Documentation:
 
-👏 Use emojis to write html. Text is treated as text - but don't mention he who shouldn't be mentioned...
+👏 Use emojis to write html. Text is treated as text - but don't mention "He-Who-Must-Not-Be-Name...
 
 And sigh... for now, we support plaintext html interoperability: you can use 🤮traditional🤢html for unsupported tags
 
