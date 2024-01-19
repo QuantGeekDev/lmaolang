@@ -77,7 +77,7 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣Hello World💀 voldemort";
+const lmaoLangCode = "🤣Hello World💀";
 
 const compiledLmao = compile(lmaoLangCode);
 
