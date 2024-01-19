@@ -14,7 +14,11 @@ export type TokenType =
   | "SPAN"
   | "CLOSE_SPAN"
   | "PARAGRAPH"
-  | "CLOSE_PARAGRAPH";
+  | "CLOSE_PARAGRAPH"
+  | "UNORDERED_LIST"
+  | "CLOSE_UNORDERED_LIST"
+  | "ORDERED_LIST"
+  | "CLOSE_ORDERED_LIST";
 
 export interface Token {
   type: TokenType;

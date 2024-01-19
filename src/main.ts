@@ -6,7 +6,7 @@ import {
   isLegalEmoji,
   isShallNotBeNamed,
 } from "./checkers.js";
-import { red, blue } from "./utils/consoleColors.js";
+import { red, green, blue } from "./utils/consoleColors.js";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
@@ -44,9 +44,6 @@ const lexer = (lmaoCode: string): Token[] => {
           "😨😱💀YOU😨😱💀WERE😨😱💀TOLD😨😱💀NOT😨😱💀TO😨😱💀NAME😨😱💀HIM!!!!"
         );
         process.exit(0);
-      }
-      if (isEmoji(char)) {
-        console.log(char);
       }
       token = { type: tokenMap.TEXT, value: char };
       tokens.push(token);
@@ -95,6 +92,18 @@ const codeGenerator = (tokens: Token[]): string => {
       case "PARAGRAPH":
         html += "<p>";
         break;
+      case "UNORDERED_LIST":
+        html += "<ul>";
+        break;
+      case "CLOSE_UNORDERED_LIST":
+        html += "</ul>";
+        break;
+      case "ORDERED_LIST":
+        html += "<ol>";
+        break;
+      case "CLOSE_ORDERED_LIST":
+        html += "</ol>";
+        break;
       case "CLOSE_PARAGRAPH":
         html += "</p>";
         break;
@@ -120,12 +129,12 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣🪬🤪Hello Sean!💀🤪💀🪬💀🤣";
+const lmaoLangCode = "🤣🪬📦🤪Hola mundo!💀🤪💀📦💀🪬💀🤣";
 
 const compiledHtml = compile(lmaoLangCode);
 
 console.log(
-  blue,
+  green,
   "\nHuge slay 👁️ 🫦 👁️\n\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
   compiledHtml
 );
