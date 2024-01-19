@@ -10,7 +10,7 @@ export const tokenMap: Record<string, TokenType> = {
   "💬": "PARAGRAPH",
   "📃": "ORDERED_LIST",
   "🎲": "UNORDERED_LIST",
-  "⏺️": "LIST_ITEM",
+  "👂": "LIST_ITEM",
   ERROR: "ERROR",
   TEXT: "TEXT",
 };
