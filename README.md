@@ -13,3 +13,5 @@ This one: !["The best keyboard ever"](https://www.switchingtomac.com/wp-content/
 ## LANA DEL REY / 100 GECKS
 
 _Runs best on TempleOS_
+
+- LLM DISCLAIMER \* : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
