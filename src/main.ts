@@ -25,7 +25,6 @@ const lexer = (lmaoCode: string): Token[] => {
 
       if (isLegalEmoji(char)) {
         if (lastTokenWasModifier) {
-          debugger;
           // @ts-ignore
           token = { type: `CLOSE_${tokenMap[char]}`, value: char };
           lastTokenWasModifier = false;
@@ -85,7 +84,7 @@ const codeGenerator = (tokens: Token[]): string => {
         html += token.value;
         break;
       case "ERROR":
-        console.log(red, `🤣❌ - Invalid emoji detected😱😨: ${token.value}`);
+        console.log(red, `🤣❌ - Invalid emoji detected💅😱😨: ${token.value}`);
         break;
       default:
         console.log(
@@ -103,8 +102,12 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣Hello World 💀🤣";
+const lmaoLangCode = "🤣 🪬🫦Marta💀🫦💀🪬💀🤣";
 
 const compiledLmao = compile(lmaoLangCode);
 
-console.log("🤣Here👏is👏your👏Lmao👏code💃:\n\n", compiledLmao, "\n\n");
+console.log(
+  "Huge slay 👁️ 🫦 👁️\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
+  compiledLmao,
+  "\n\n"
+);
