@@ -92,6 +92,12 @@ const codeGenerator = (tokens: Token[]): string => {
       case "PARAGRAPH":
         html += "<p>";
         break;
+      case "LIST_ITEM":
+        html += "<li>";
+        break;
+      case "CLOSE_LIST_ITEM":
+        html += "</li>";
+        break;
       case "UNORDERED_LIST":
         html += "<ul>";
         break;

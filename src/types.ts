@@ -18,7 +18,9 @@ export type TokenType =
   | "UNORDERED_LIST"
   | "CLOSE_UNORDERED_LIST"
   | "ORDERED_LIST"
-  | "CLOSE_ORDERED_LIST";
+  | "CLOSE_ORDERED_LIST"
+  | "LIST_ITEM"
+  | "CLOSE_LIST_ITEM";
 
 export interface Token {
   type: TokenType;
