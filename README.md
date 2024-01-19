@@ -29,14 +29,15 @@ And sigh... for now, we support plaintext html interoperability: you can use �
 Example:
 
 ```
-🤣🗣️I love LmaoLang!🗣️💀 💀
+🤣 🪬 🫦 I love LmaoLang! 💀🫦 💀🪬 💀🤣
 ```
 
 ## 📘 API Reference
 
 html => 🤣
 body =>🪬
-h1 =>🫦
+h1 => 🫦
+div => 📦
 
 That's all you need!
 
