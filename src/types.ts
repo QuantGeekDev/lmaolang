@@ -8,8 +8,7 @@ export type TokenType =
   | "ERROR"
   | "CLOSE_HTML"
   | "CLOSE_H1"
-  | "CLOSE_BODY"
-  | "CLOSE_💀";
+  | "CLOSE_BODY";
 
 export interface Token {
   type: TokenType;

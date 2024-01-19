@@ -20,6 +20,8 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 
 👏 Use emojis to write html. Text is treated as text - but don't mention he who shouldn't be mentioned...
 
+And sigh... for now, we support plaintext html interoperability: you can use 🤮traditional🤢html for unsupported tags
+
 💀 Is the universal closing tag. Close any tag by adding the 💀 modifier to it.
 🤣 doesn't require a modifier tag, close it with a single 💀 at the end
 Example:
@@ -32,7 +34,7 @@ Example:
 
 html => 🤣
 body =>🪬
-h1 =>🗣️
+h1 =>🫦
 
 That's all you need!
 
