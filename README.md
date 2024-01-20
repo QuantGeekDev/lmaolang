@@ -11,9 +11,13 @@ Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random mess
 Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somwhere in the middle...
 
 ## 📽️📺PREVIEW VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
-
-!["Company Moto"](https://pbs.twimg.com/media/CngEj5vXgAAeOJP.png:large)
-
+<html>
+<p align="center">
+  <a href="https://youtu.be/LjOmYastyUI">
+    <img src="https://pbs.twimg.com/media/CngEj5vXgAAeOJP.png" alt="Company Moto" height="300" width="auto" />
+  </a>
+</p>
+</html>
 
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
