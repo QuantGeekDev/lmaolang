@@ -167,3 +167,7 @@ console.log(
   "\nHuge slay 👁️ 🫦 👁️\n\n🤣Here👏is👏your👏html👏code😉💃:\n\n",
   compiledHtml
 );
+
+const pathToTargetDirectory = "./dist/index.html";
+
+await writeFile(pathToTargetDirectory, compiledHtml);
