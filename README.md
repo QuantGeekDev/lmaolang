@@ -1,4 +1,4 @@
-![image](https://github.com/QuantGeekDev/lmaolang/assets/58406316/4ea78cdc-13eb-4f0b-b10d-42b275d65e75)!["The LMAO lang banner](https://res.cloudinary.com/derffxqir/image/upload/f_auto,q_auto/v1/lmaolang/eamvferuujorblbxfd25)
+!["The LMAO lang banner](https://res.cloudinary.com/derffxqir/image/upload/f_auto,q_auto/v1/lmaolang/eamvferuujorblbxfd25)
 
 # 👏 lmaolang
 
