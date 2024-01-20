@@ -6,7 +6,8 @@ import {
   isLegalEmoji,
   isShallNotBeNamed,
 } from "./checkers.js";
-import { red, green, blue } from "./utils/consoleColors.js";
+import { red, green } from "./utils/consoleColors.js";
+import { readFile, writeFile } from "fs/promises";
 
 const lexer = (lmaoCode: string): Token[] => {
   const tokens: Token[] = [];
@@ -141,7 +142,23 @@ export const compile = (input: string): string => {
   return codeGenerator(tokens);
 };
 
-const lmaoLangCode = "🤣🪬📦🤪Hola mundo!💀🤪💀📦💀🪬💀🤣";
+const pathToLmaoCodeFile = "./src/♥️.lmao";
+let lmaoCodeFromFile = "";
+try {
+  lmaoCodeFromFile = await readFile(pathToLmaoCodeFile, "utf8");
+} catch (error) {
+  console.error(red, error);
+}
+if (!lmaoCodeFromFile) {
+  console.log(
+    red,
+    `Unable to read lmao from ♥️.lmao, please check if file exists at ${pathToLmaoCodeFile}`
+  );
+}
+
+const lmaoLangCode =
+  lmaoCodeFromFile ??
+  "🤣🪬📦🫦Lista de colores💀🫦💀📦📃👂Rojo💀👂👂Azul💀👂👂Lila💀👂👂Amarillo💀👂👂Verde <img src='https://www.lavanguardia.com/files/image_948_465/uploads/2011/05/25/5f9af0a1e8169.jpeg'/> 💀👂💀📃💀🪬💀🤣";
 
 const compiledHtml = compile(lmaoLangCode);
 
