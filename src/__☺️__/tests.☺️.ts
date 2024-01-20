@@ -2,9 +2,10 @@ import {
   lmaoTestRunner,
   compilerTest,
 } from "../lmaoTestRunner/lmaoTestRunner.js";
+import { blue } from "../utils/consoleColors.js";
 
 // TESTS TEST (for ctrl-f indexing)
-
+console.log(blue, "Running 🤣 Test Suite");
 // Hello World
 const lmaoCode = "🤣🪬🫦Hello World💀🫦💀🪬💀🤣";
 const expectedHtml = `<html><body><h1>Hello World</h1></body></html>`;
