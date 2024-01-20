@@ -1,3 +1,5 @@
+!["The LMAO lang banner](https://res.cloudinary.com/derffxqir/image/upload/f_auto,q_auto/v1/lmaolang/eamvferuujorblbxfd25)
+
 # 👏 lmaolang
 
 👏🏼A👏🏼revolution👏🏼in👏🏼HTML👏🏼
