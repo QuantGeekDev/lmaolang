@@ -4,8 +4,6 @@
 
 👏🏼A👏🏼revolution👏🏼in👏🏼HTML👏🏼
 
-👏 Designed for 🍎Apple users 😉 The ones with the touchpad for emojis🐈. You're gonna 🥰🥰🥰🥰 this, trust me🙄.
-
 LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 to represent HTML 📜 elements. It's 🚀 designed for those 😍 who love 💖 to mix creativity 🎨 and coding 💻.
 
 Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random messaging service here' as an IDE? Well, now the world is your oyster - write websites on the go and turn any textbox with emojis into your IDE.
