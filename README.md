@@ -18,7 +18,8 @@ Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random mess
 
 Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somwhere in the middle...
 
-## 📽️📺PREVIEW VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
+## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
+
 <html>
 <p align="center">
   <a href="https://youtu.be/LjOmYastyUI">
@@ -114,6 +115,12 @@ Coming soon: lmaoTestRunner will automatically break your tests, eliminating fal
 ```
 
 _FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
+
+<html>
+  <a href="https://discord.gg/EK8mBU8T">
+    <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
+  </a>
+</html>
 
 ## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
 
