@@ -1,4 +1,7 @@
-import { compile } from "../main.js";
+import Compiler from "../Compiler.js";
+import lexer from "../lexer.js";
+
+const testCompiler = new Compiler(lexer);
 
 export const lmaoTestRunner = (title: string, callback: () => boolean) => {
   try {
@@ -16,7 +19,7 @@ export const compilerTest = (
   codeToCompile: string,
   expectedCompiledCode: string
 ) => {
-  const actualCompiledCode = compile(codeToCompile);
+  const actualCompiledCode = testCompiler.compile(codeToCompile);
 
   if (expectedCompiledCode === actualCompiledCode) {
     return true;
