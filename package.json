@@ -8,6 +8,7 @@
     "build": "tsc",
     "build:dev": "tsc -w",
     "start": "node .",
+    "♥️": "npm run build && npm run start && npx serve dist/index.html",
     "start:dev": "node --watch . ",
     "☺️": "node dist/__☺️__/tests.☺️.js"
   },
