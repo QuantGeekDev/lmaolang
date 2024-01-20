@@ -38,6 +38,7 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 - 👏🎵 **OFFICIAL 🤣LANG PLAYLIST: ["Playlist to write beautiful 🤣lang code"](https://music.youtube.com/playlist?list=PLgjnnu4Dtla_mbkrpC9wDkmba3rYiCw-a&si=NN-sWVfIr50ewEDi) :** 🎶
 
 - **Mandatory watching to be a good 🤣-lang developer: ["Primer on LmaoLang (he's literally me🥺)"](https://youtu.be/r8pJt4dK_s4)**
+- **Works great with RSC and HTMX**
 
 ## ⚡QUICKSTART ⚡
 0. Make sure you have Node installed
