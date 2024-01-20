@@ -2,6 +2,14 @@
 
 # 👏 lmaolang
 
+<html>
+<p align="left">
+  <a href="https://youtu.be/LjOmYastyUI">
+    <img src="https://github.com/QuantGeekDev/lmaolang/assets/58406316/52a7a56b-0ecb-4d34-8093-4bb290d64fc7" alt="Award Badge" height="150" width="auto" />
+  </a>
+</p>
+</html>
+
 👏🏼A👏🏼revolution👏🏼in👏🏼HTML👏🏼
 
 LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 to represent HTML 📜 elements. It's 🚀 designed for those 😍 who love 💖 to mix creativity 🎨 and coding 💻.
