@@ -99,7 +99,7 @@ Coming soon: lmaoTestRunner will automatically break your tests, eliminating fal
    🪬
       🫦 Hello World 🫦💀
    🪬💀
-💀
+🤣💀
 ```
 
 👏 This will compile 🛠️ into:
