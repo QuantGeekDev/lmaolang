@@ -117,8 +117,8 @@ _FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
 ## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
 
 ## Rationale:
-📦 as div -> Box contains things, it's a container  
-👂 as li -> If you type "list" in emoji keyboard, it's the second entry to appear
-🎲 as ul -> Oposite of ordered is random
-
+- 📦 as div -> Box contains things, it's a container  
+- 👂 as li -> If you type "list" in emoji keyboard, it's the second entry to appear
+- 🎲 as ul -> Oposite of ordered is random
+- 🤓 as article -> Articles are for nerds (the author of 🤣lang loves articles)
 Copyright (C) 2024 Alex Andru
