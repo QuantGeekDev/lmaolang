@@ -10,6 +10,8 @@ Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random mess
 
 Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somwhere in the middle...
 
+## 📽️📺PREVIEW VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
+
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
 - 👏 **MACBOOK WITH TOUCHPAD KEYBOARD:**
@@ -21,6 +23,12 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 - 👏🎵 **OFFICIAL 🤣LANG PLAYLIST: ["Playlist to write beautiful 🤣lang code"](https://music.youtube.com/playlist?list=PLgjnnu4Dtla_mbkrpC9wDkmba3rYiCw-a&si=NN-sWVfIr50ewEDi) :** 🎶
 
 - **Mandatory watching to be a good 🤣-lang developer: ["The best"](https://youtu.be/r8pJt4dK_s4)**
+
+## ⚡QUICKSTART ⚡
+0. Make sure you have Node installed
+1. run `npm i` in terminal
+2  type `npm run ♥️` in console
+3. That's it. Edit the ♥️.lmao file in src/ directory to build your website
 
 # 📚 Documentation:
 
