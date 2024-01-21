@@ -20,12 +20,12 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 
 ## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
 
+## UPDATE: THE SKIBBIDY TOILET COMPILER IS NOW LIVE ON OUR DISCORD - SEAMLESSLY COMPILE YOUR 🤣-LANG CODE IN SECONDS!
+## JOIN OUR DISCORD - LOOKING FOR MODERATORS
 <html>
-<p align="center">
-  <a href="https://youtu.be/LjOmYastyUI">
-    <img src="https://pbs.twimg.com/media/CngEj5vXgAAeOJP.png" alt="Company Moto" height="300" width="auto" />
+  <a href="https://discord.gg/EK8mBU8T">
+    <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
   </a>
-</p>
 </html>
 
 ## 🌈 ASYNC DEV DEPENDENCIES:
@@ -127,13 +127,6 @@ _FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
 
 On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](https://youtu.be/k0qmkQGqpM8)
 
-# JOIN OUR DISCORD - LOOKING FOR MODERATORS
-<html>
-  <a href="https://discord.gg/EK8mBU8T">
-    <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
-  </a>
-</html>
-
 ## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
 
 ## Rationale:
@@ -141,5 +134,14 @@ On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](htt
 - 👂 as li -> If you type "list" in emoji keyboard, it's the second entry to appear
 - 🎲 as ul -> Oposite of ordered is random
 - 🤓 as article -> Articles are for nerds
+
+<html>
+<p align="center">
+  <a href="https://youtu.be/LjOmYastyUI">
+    <img src="https://pbs.twimg.com/media/CngEj5vXgAAeOJP.png" alt="Company Moto" height="300" width="auto" />
+  </a>
+</p>
+</html>
+
   
 Copyright (C) 2024 Alex Andru
