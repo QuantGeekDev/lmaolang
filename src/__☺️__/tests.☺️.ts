@@ -53,3 +53,8 @@ lmaoTestRunner("List Item", () =>
 const articleLmao = "🤓Article💀🤓";
 const expectedArticleHtml = "<article>Article</article>";
 lmaoTestRunner("Article", () => compilerTest(articleLmao, expectedArticleHtml));
+
+// Escaping
+const escapeLmao = "I am a not a div 📦💀🤓";
+const expectedEscapeHtml = "I am a not a div 📦💀🤓";
+lmaoTestRunner("Escape", () => compilerTest(escapeLmao, expectedEscapeHtml));
