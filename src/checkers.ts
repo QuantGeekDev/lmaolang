@@ -13,4 +13,6 @@ export const isEmoji = (char: string) => {
 
 export const isClosingTag = (char: string): boolean => char === "💀";
 
+export const isEscape = (char: string): boolean => char === "🪂";
+
 export const isLegalEmoji = (char: string) => Boolean(tokenMap[char]);

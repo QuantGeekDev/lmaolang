@@ -60,6 +60,15 @@ Example:
 🤣 🪬 🫦 I love LmaoLang! 💀🫦 💀🪬 💀🤣
 ```
 
+I heard you like emojis... 🤦 but how do you use emojis in your documents?
+
+Easy, use the 🪂 emoji to escape emojis!
+🪂 can escape itself too. It can also escape the 💀 modifier.
+Example:
+```
+🪂📦I am a not a div 🪂💀🪂📦 and you can 🪂🪂 escape 🪂🪂 escapes 🪂🪂
+```
+
 ## 📘 API Reference
 
 

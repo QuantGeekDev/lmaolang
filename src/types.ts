@@ -1,6 +1,7 @@
 export type TokenType =
   | "HTML"
   | "💀"
+  | "🪂"
   | "BODY"
   | "H1"
   | "TEXT"
