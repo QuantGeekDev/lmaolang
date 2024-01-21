@@ -123,7 +123,9 @@ Coming soon: lmaoTestRunner will automatically break your tests, eliminating fal
 </html>
 ```
 
-_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_
+_FOR BEST DX, RUN IT INSIDE OF TempleOS on Parallels Desktop on a Macbook Pro_ 
+
+On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](https://youtu.be/k0qmkQGqpM8)
 
 # JOIN OUR DISCORD - LOOKING FOR MODERATORS
 <html>
