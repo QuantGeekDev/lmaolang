@@ -20,7 +20,13 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 
 ## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
 
-## UPDATE: THE SKIBBIDY TOILET COMPILER IS NOW LIVE ON OUR DISCORD - SEAMLESSLY COMPILE YOUR 🤣-LANG CODE IN SECONDS!
+## Linus Torvalds on Lmao-Lang and Innovation:
+<html>
+  <a href="https://youtu.be/CW4mknm9FnU">
+    <img src="https://github.com/QuantGeekDev/lmaolang/assets/58406316/a2c68492-65ad-47b9-8901-f63126717b7e" alt="Linus Torvalds during a talk" width="auto"
+/>
+  </a>
+</html>
 ## JOIN OUR DISCORD - LOOKING FOR MODERATORS
 <html>
   <a href="https://discord.gg/EK8mBU8T">
