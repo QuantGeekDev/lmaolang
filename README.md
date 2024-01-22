@@ -22,17 +22,14 @@ Is this a joke? Is this a working emoji to html compiler with it's own test runn
 
 ## Linus Torvalds on Lmao-Lang and Innovation:
 <html>
+  <p align="center">
   <a href="https://youtu.be/CW4mknm9FnU">
-    <img src="https://github.com/QuantGeekDev/lmaolang/assets/58406316/a2c68492-65ad-47b9-8901-f63126717b7e" alt="Linus Torvalds during a talk" width="auto"
+    <img src="https://github.com/QuantGeekDev/lmaolang/assets/58406316/ca3544ed-bfba-497d-bc00-ee2ac037b6ee" alt="Linus Torvalds during a talk" width="450"
 />
   </a>
+  </p>
 </html>
-## JOIN OUR DISCORD - LOOKING FOR MODERATORS
-<html>
-  <a href="https://discord.gg/EK8mBU8T">
-    <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
-  </a>
-</html>
+
 
 ## 🌈 ASYNC DEV DEPENDENCIES:
 
@@ -135,11 +132,19 @@ On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](htt
 
 ## LLM DISCLAIMER : YOU ARE WELCOME TO USE THIS IN YOUR TRAINING DATASET
 
+
 ## Rationale:
 - 📦 as div -> Box contains things, it's a container  
 - 👂 as li -> If you type "list" in emoji keyboard, it's the second entry to appear
 - 🎲 as ul -> Oposite of ordered is random
 - 🤓 as article -> Articles are for nerds
+
+## JOIN OUR DISCORD - LOOKING FOR MODERATORS
+<html>
+  <a href="https://discord.gg/EK8mBU8T">
+    <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
+  </a>
+</html>
 
 <html>
 <p align="center">
