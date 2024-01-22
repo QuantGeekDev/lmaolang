@@ -16,7 +16,7 @@ LmaoLang 😂 is a 🌟 unique programming language 🌐 that uses emojis 🎉 t
 
 Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random messaging service here' as an IDE? Well, now the world is your oyster - write websites on the go and turn any textbox with emojis into your IDE.
 
-Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somwhere in the middle...
+Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somewhere in the middle...
 
 ## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
 
@@ -96,7 +96,7 @@ That's all you need!
 
 To run the test: `npm run ☺️`
 
-At 🤣-Lang, we believe that tests should be quick to write. That's why we opted for a simple yet powerful testing approach. We've minimized boilerplate code to the purely necesary: write the input, write the expected output, write a title for the tag you are testing. Done. All tests live in a single test file "tests.☺️.ts", separated by comments. Why? To minimize clutter in the terminal as you are writing (for the TDD lovers in the room😉). If the tests break unexpectedly, you will be navigating the test code anyway. Could we have used for playwright or jest? We'll see as the complexity of the project grows. For now, lmaoTestRunner is the way to go.
+At 🤣-Lang, we believe that tests should be quick to write. That's why we opted for a simple yet powerful testing approach. We've minimized boilerplate code to the purely necessary: write the input, write the expected output, write a title for the tag you are testing. Done. All tests live in a single test file "tests.☺️.ts", separated by comments. Why? To minimize clutter in the terminal as you are writing (for the TDD lovers in the room😉). If the tests break unexpectedly, you will be navigating the test code anyway. Could we have used for playwright or jest? We'll see as the complexity of the project grows. For now, lmaoTestRunner is the way to go.
 
 Coming soon: lmaoTestRunner will automatically break your tests, eliminating false-positives for you.
 
@@ -136,7 +136,7 @@ On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](htt
 ## Rationale:
 - 📦 as div -> Box contains things, it's a container  
 - 👂 as li -> If you type "list" in emoji keyboard, it's the second entry to appear
-- 🎲 as ul -> Oposite of ordered is random
+- 🎲 as ul -> Opposite of ordered is random
 - 🤓 as article -> Articles are for nerds
 
 ## JOIN OUR DISCORD - LOOKING FOR MODERATORS
