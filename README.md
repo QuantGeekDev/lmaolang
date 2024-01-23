@@ -18,6 +18,8 @@ Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random mess
 
 Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somewhere in the middle...
 
+### 🤣-Lang is the first web development language that is human-language agnostic. You do not need to know English to program in 🤣-lang.
+
 ## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
 
 ## Linus Torvalds on Lmao-Lang and Innovation:
