@@ -18,7 +18,7 @@ Have you ever dreamed of using Whatsapp/Telegram/iMessage/Messenger/'random mess
 
 Is this a joke? Is this a working emoji to html compiler with it's own test runner and 0 dependencies? The truth lies somewhere in the middle...
 
-### 🤣-Lang is the first web development language that is human-language agnostic. You do not need to know English to program in 🤣-lang.
+### 🤣-Lang is the first web development language that is human-language agnostic. You do not need to know English to program in 🤣-lang. It is also friendly to people with dyslexia
 
 ## 📽️📺LMAOLANG TRAILER VIDEO: ["CLICK HERE"](https://youtu.be/LjOmYastyUI)
 
@@ -147,6 +147,8 @@ On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](htt
     <img src="https://i.imgur.com/XpnBhTW.png" height="217 width="612"/>
   </a>
 </html>
+
+### The author of lmao-lang is on the market for a job. Please email alex@andru.codes
 
 <html>
 <p align="center">
