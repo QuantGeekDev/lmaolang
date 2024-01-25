@@ -148,7 +148,7 @@ On idiots vs geniuses by the great Terry Davis ["Terry Davis on Simplicity"](htt
   </a>
 </html>
 
-### The author of lmao-lang is on the market for a job. Please email alex@andru.codes
+### For inquiries and employment opportunities please email alex@andru.codes
 
 <html>
 <p align="center">
